@@ -1,0 +1,136 @@
+.profile-container {
+    background-color: #f6f8fa;
+    /* min-height: 100vh; */
+    padding: 24px;
+    width:auto !important;
+    height:auto !important;
+  }
+  
+  .patient-details {
+    width:auto !important;
+    color:white !important;
+    margin-bottom: 32px;
+    padding: 24px;
+    background-color: #d9e8ff;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: blue !important;
+  }
+  
+  .patient-avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+    background-color: #007bff;
+  }
+  
+  .patient-info {
+    flex-grow: 1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+  .info-row{
+    /* display:flex; */
+    /* flex-direction: row; */
+  }
+  
+  .patient-name {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .patient-id,
+  .patient-contact,
+  .patient-address {
+    margin-bottom: 4px;
+  }
+  
+  .edit-button {
+    text-transform: none;
+  }
+  
+  .tabs-container {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  .tab-button {
+    flex-grow: 1;
+    border-radius: 0;
+    text-transform: none;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 12px;
+  }
+  
+  .active-tab {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .dates-container {
+    padding: 24px;
+    /* background-color: #f0f4ff; */
+    width:200px;
+    border-radius: 12px;
+    height:95% !important;
+  }
+  
+  .dates-header {
+    margin-bottom: 16px;
+    font-weight: bold;
+    text-align: center;
+    height:auto !important;
+  }
+  
+  .date-box {
+    color:blue !important;
+    background-color: #e0e0e0 !important;
+    padding: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .date-box:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .active-date {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 123, 255, 0.5);
+  }
+  
+  .details-container {
+    padding: 32px;
+    border-radius: 12px;
+   
+  }
+  
+  .selected-date {
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .section-content {
+    margin-bottom: 8px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
